@@ -11,7 +11,6 @@ from mmpose.registry import VISUALIZERS
 from mmpose.structures import merge_data_samples
 from mmdet.apis import inference_detector, init_detector
 
-img = 'C:/Users/user/Downloads/mmpose-main (1)/mmpose-main/.venv/test/uploads/26.jpg'
 
 def visualize_img(img_path):
     pose_config = 'C:/Users/user/Downloads/mmpose-main (1)/mmpose-main/configs/body_2d_keypoint/topdown_heatmap/coco/td-hm_hrnet-w32_8xb64-210e_coco-256x192.py'
